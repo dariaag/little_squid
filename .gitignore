@@ -1,0 +1,8 @@
+/target
+/src/fetcher/traits.rs
+/src/fetcher/async_fetcher.rs
+/src/fetcher/fetcherv1.rs
+/src/fetcher/fetcher1.rs
+/data
+.DS_Store
+/*/.DS_Store

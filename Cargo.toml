@@ -1,0 +1,33 @@
+[package]
+name = "little-squid-cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[profile.release]
+debug = true
+[dependencies]
+async-std = "1.12.0"
+clap = { version = "4.4.11", features = ["derive"] }
+crossbeam = "0.8.2"
+crossterm = "0.27.0"
+futures = "0.3.29"
+graphql_client = "0.13.0"
+polars = { version = "0.36.2", features = ["parquet"] }
+indicatif = "0.17.7"
+#indicatif.workspace = true
+json-writer = "0.3.0"
+reqwest = { version = "0.11.20", features = ["json", "blocking"] }
+serde = { version = "1.0.188", features = ["derive"] }
+serde_json = "1.0.105"
+serde_yaml = "0.9.25"
+struct_iterable = "0.1.1"
+tokio = { version = "1.32.0", features = ["full"] }
+utils = { path = "./src/utils" }
+anyhow = "1.0.75"
+async-trait = "0.1.75"
+colored = "2.1.0"
+get-size = "0.1.4"
+tracing = "0.1.40"
+hex = "0.4.3"
+flamegraph = "0.6.4"

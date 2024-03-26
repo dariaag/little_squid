@@ -1,0 +1,13 @@
+default values for predetermined datasets
+default fields +
+height check in cli  
+file name block num and dataset +
+save only if doesnt exist 
+add printing summary +
+concurrent requests +
+csv 
+different parquet compression
+save in bigger chunks
+skipped chunks functionality 
+height check 
+add related data retrieval
